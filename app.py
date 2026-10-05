@@ -37,28 +37,21 @@ st.markdown("""
     .main-header {
         font-size: 2.2rem;
         font-weight: 700;
-        color: #1A365D;
         margin-bottom: 0.2rem;
     }
     .sub-header {
         font-size: 1.1rem;
-        color: #4A5568;
         margin-bottom: 1.5rem;
-    }
-    .metric-card {
-        background-color: #F7FAFC;
-        border-left: 4px solid #2B6CB0;
-        padding: 1rem;
-        border-radius: 4px;
-        box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        opacity: 0.85;
     }
     .recommendation-card {
-        background-color: #EDF2F7;
-        border: 1px solid #CBD5E0;
+        background-color: rgba(43, 108, 176, 0.08);
+        border: 1px solid rgba(43, 108, 176, 0.25);
         padding: 1.2rem;
-        border-radius: 6px;
+        border-radius: 8px;
         margin-bottom: 1rem;
     }
+
 </style>
 """, unsafe_allow_html=True)
 
