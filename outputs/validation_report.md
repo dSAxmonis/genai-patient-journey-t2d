@@ -21,9 +21,9 @@ Comparison against the generator's hidden clinical profiles across categorical a
 | **Currently on GLP-1 / SGLT2** | 1.000 | 1.000 | 1.000 | 1.000 | 1.000 |
 | **Ever Initiated Newer Therapy** | 1.000 | 1.000 | 1.000 | 1.000 | 1.000 |
 | **Diagnostic Dismissal / Delay** | 1.000 | 1.000 | 1.000 | 1.000 | 1.000 |
-| **Age Demographic Bracket** | 0.900 | 0.862 | 0.875 | 0.911 | 0.869 |
+| **Age Demographic Bracket** | 0.883 | 0.839 | 0.852 | 0.898 | 0.852 |
 | **Disease Duration Bucket** | 0.917 | 0.884 | 0.931 | 0.941 | 0.928 |
-| **Primary Adoption Barrier** | 0.650 | 0.567 | 0.700 | 0.670 | 0.608 |
+| **Primary Adoption Barrier** | 0.667 | 0.587 | 0.713 | 0.686 | 0.624 |
 
 ---
 
@@ -32,9 +32,9 @@ Patient interviews frequently cite co-occurring or subtle barriers. Multi-label 
 
 | Barrier Classification | Ground Truth Prevalence | Precision | Recall | F1-Score |
 | :--- | :---: | :---: | :---: | :---: |
-| **COST_INSURANCE** | 7 (11.7%) | 0.778 | 1.000 | 0.875 |
+| **COST_INSURANCE** | 7 (11.7%) | 0.700 | 1.000 | 0.824 |
 | **FEAR_INJECTIONS** | 8 (13.3%) | 0.800 | 1.000 | 0.889 |
-| **FEAR_SIDE_EFFECTS** | 16 (26.7%) | 0.571 | 1.000 | 0.727 |
+| **FEAR_SIDE_EFFECTS** | 16 (26.7%) | 0.593 | 1.000 | 0.744 |
 | **PHYSICIAN_INERTIA** | 10 (16.7%) | 0.345 | 1.000 | 0.513 |
 | **PATIENT_PREFERENCE** | 5 (8.3%) | 1.000 | 1.000 | 1.000 |
 | **NONE_REPORTED** | 22 (36.7%) | 1.000 | 1.000 | 1.000 |
@@ -47,7 +47,7 @@ Ground truth profiles generated alongside transcripts can introduce optimism bia
 | Clinical Measure | Human-Model Agreement (%) | Cohen's Kappa (κ) | Interpretation |
 | :--- | :---: | :---: | :--- |
 | **Adoption Status** | 77.8% | 0.613 | Substantial/Almost Perfect Agreement |
-| **Primary Barrier** | 61.1% | 0.475 | Strong Agreement (minor nuances on implied inertia) |
+| **Primary Barrier** | 66.7% | 0.557 | Strong Agreement (minor nuances on implied inertia) |
 
 ---
 
