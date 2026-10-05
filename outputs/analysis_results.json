@@ -1,0 +1,497 @@
+{
+  "dataset_metadata": {
+    "total_patients": 60,
+    "is_synthetic": true
+  },
+  "q1_adoption": {
+    "total_patients": 60,
+    "funnel": {
+      "discussed": {
+        "count": 51,
+        "rate": 0.85,
+        "ci_lower": 0.7389,
+        "ci_upper": 0.919
+      },
+      "ever_used": {
+        "count": 40,
+        "rate": 0.6667,
+        "ci_lower": 0.5406,
+        "ci_upper": 0.7727
+      },
+      "currently_on": {
+        "count": 33,
+        "rate": 0.55,
+        "ci_lower": 0.4249,
+        "ci_upper": 0.6691
+      }
+    },
+    "dropoff": {
+      "discussed_to_ever_dropoff": 0.216,
+      "ever_to_current_dropoff": 0.175
+    },
+    "by_disease_duration": {
+      "1-3 years": {
+        "n": 18,
+        "current_adopters": 7,
+        "rate": 0.3889,
+        "ci_lower": 0.2031,
+        "ci_upper": 0.6138
+      },
+      "4-7 years": {
+        "n": 18,
+        "current_adopters": 10,
+        "rate": 0.5556,
+        "ci_lower": 0.3372,
+        "ci_upper": 0.7544
+      },
+      "8+ years": {
+        "n": 18,
+        "current_adopters": 14,
+        "rate": 0.7778,
+        "ci_lower": 0.5479,
+        "ci_upper": 0.91
+      },
+      "<1 year": {
+        "n": 6,
+        "current_adopters": 2,
+        "rate": 0.3333,
+        "ci_lower": 0.0968,
+        "ci_upper": 0.7
+      }
+    },
+    "by_age_group": {
+      "18-39": {
+        "n": 12,
+        "current_adopters": 4,
+        "rate": 0.3333,
+        "ci_lower": 0.1381,
+        "ci_upper": 0.6094
+      },
+      "40-54": {
+        "n": 20,
+        "current_adopters": 15,
+        "rate": 0.75,
+        "ci_lower": 0.5313,
+        "ci_upper": 0.8881
+      },
+      "55-64": {
+        "n": 18,
+        "current_adopters": 8,
+        "rate": 0.4444,
+        "ci_lower": 0.2456,
+        "ci_upper": 0.6628
+      },
+      "65+": {
+        "n": 10,
+        "current_adopters": 6,
+        "rate": 0.6,
+        "ci_lower": 0.3127,
+        "ci_upper": 0.8318
+      }
+    }
+  },
+  "q2_barriers": {
+    "non_adopters_count": 27,
+    "prevalence": {
+      "COST_INSURANCE": {
+        "count": 7,
+        "rate": 0.2593,
+        "ci_lower": 0.1317,
+        "ci_upper": 0.4468
+      },
+      "FEAR_INJECTIONS": {
+        "count": 5,
+        "rate": 0.1852,
+        "ci_lower": 0.0818,
+        "ci_upper": 0.367
+      },
+      "FEAR_SIDE_EFFECTS": {
+        "count": 16,
+        "rate": 0.5926,
+        "ci_lower": 0.4073,
+        "ci_upper": 0.7549
+      },
+      "PHYSICIAN_INERTIA": {
+        "count": 17,
+        "rate": 0.6296,
+        "ci_lower": 0.4423,
+        "ci_upper": 0.7847
+      },
+      "PATIENT_PREFERENCE": {
+        "count": 5,
+        "rate": 0.1852,
+        "ci_lower": 0.0818,
+        "ci_upper": 0.367
+      }
+    },
+    "primary_barrier_distribution": {
+      "FEAR_SIDE_EFFECTS": 7,
+      "COST_INSURANCE": 7,
+      "PHYSICIAN_INERTIA": 7,
+      "FEAR_INJECTIONS": 5,
+      "PATIENT_PREFERENCE": 1
+    },
+    "co_occurrence_matrix": {
+      "COST_INSURANCE": {
+        "COST_INSURANCE": 7,
+        "FEAR_INJECTIONS": 0,
+        "FEAR_SIDE_EFFECTS": 5,
+        "PHYSICIAN_INERTIA": 5,
+        "PATIENT_PREFERENCE": 1
+      },
+      "FEAR_INJECTIONS": {
+        "COST_INSURANCE": 0,
+        "FEAR_INJECTIONS": 5,
+        "FEAR_SIDE_EFFECTS": 4,
+        "PHYSICIAN_INERTIA": 0,
+        "PATIENT_PREFERENCE": 0
+      },
+      "FEAR_SIDE_EFFECTS": {
+        "COST_INSURANCE": 5,
+        "FEAR_INJECTIONS": 4,
+        "FEAR_SIDE_EFFECTS": 16,
+        "PHYSICIAN_INERTIA": 9,
+        "PATIENT_PREFERENCE": 1
+      },
+      "PHYSICIAN_INERTIA": {
+        "COST_INSURANCE": 5,
+        "FEAR_INJECTIONS": 0,
+        "FEAR_SIDE_EFFECTS": 9,
+        "PHYSICIAN_INERTIA": 17,
+        "PATIENT_PREFERENCE": 2
+      },
+      "PATIENT_PREFERENCE": {
+        "COST_INSURANCE": 1,
+        "FEAR_INJECTIONS": 0,
+        "FEAR_SIDE_EFFECTS": 1,
+        "PHYSICIAN_INERTIA": 2,
+        "PATIENT_PREFERENCE": 5
+      }
+    },
+    "archetypes": [
+      {
+        "archetype": "Cost-Constrained Adopter",
+        "defining_barrier": "COST_INSURANCE",
+        "share_of_non_adopters": 0.2593,
+        "description": "Patients who were prescribed or discussed newer therapies but abandoned initiation due to prior authorization denial or unaffordable copays ($300+/month)."
+      },
+      {
+        "archetype": "Hesitant Injector",
+        "defining_barrier": "FEAR_INJECTIONS",
+        "share_of_non_adopters": 0.1852,
+        "description": "Patients with high needle anxiety who actively resist subcutaneous pens, creating prime opportunities for oral GLP-1/SGLT2 formulations."
+      },
+      {
+        "archetype": "Clinical Inertia Stagnator",
+        "defining_barrier": "PHYSICIAN_INERTIA",
+        "share_of_non_adopters": 0.6296,
+        "description": "Patients with moderately elevated A1C (7.2-7.8%) whose PCPs defer escalation citing 'satisfactory' glycemic status."
+      },
+      {
+        "archetype": "GI-Apprehensive Skeptic",
+        "defining_barrier": "FEAR_SIDE_EFFECTS",
+        "share_of_non_adopters": 0.5926,
+        "description": "Patients concerned by severe nausea, gastroparesis warnings, or peer reports of vomiting."
+      }
+    ]
+  },
+  "q3_ladder": {
+    "adopters_evaluated": 40,
+    "median_steps_before_newer": 1.0,
+    "mean_steps_before_newer": 1.35,
+    "iqr_steps": [
+      1.0,
+      2.0
+    ],
+    "steps_distribution": {
+      "1": 26,
+      "2": 14
+    },
+    "top_sequences": {
+      "METFORMIN -> SGLT2_INHIBITOR": 13,
+      "METFORMIN -> SULFONYLUREA -> INSULIN": 9,
+      "METFORMIN -> SGLT2_INHIBITOR -> GLP1_RA": 6,
+      "METFORMIN -> SGLT2_INHIBITOR -> GLP1_RA -> INSULIN": 6,
+      "METFORMIN": 5
+    }
+  },
+  "q4_pathways": {
+    "mean_provider_count": 2.55,
+    "median_provider_count": 2.0,
+    "provider_distribution": {
+      "1": 17,
+      "2": 17,
+      "3": 2,
+      "4": 24
+    },
+    "symptom_dismissal": {
+      "count": 21,
+      "rate": 0.35,
+      "ci_lower": 0.2417,
+      "ci_upper": 0.4764,
+      "by_age_group": {
+        "18-39": {
+          "count": 6,
+          "total": 12,
+          "rate": 0.5
+        },
+        "40-54": {
+          "count": 8,
+          "total": 20,
+          "rate": 0.4
+        },
+        "55-64": {
+          "count": 2,
+          "total": 18,
+          "rate": 0.1111
+        },
+        "65+": {
+          "count": 5,
+          "total": 10,
+          "rate": 0.5
+        }
+      }
+    }
+  },
+  "inferential_tests": {
+    "bivariate_fisher_tests": [
+      {
+        "test_name": "Cost Barrier vs Adoption",
+        "table": [
+          [
+            20,
+            31
+          ],
+          [
+            7,
+            2
+          ]
+        ],
+        "odds_ratio": 0.217,
+        "ci_lower": 0.047,
+        "ci_upper": 1.007,
+        "p_value": 0.065,
+        "is_significant": false,
+        "interpretation": "Patients with Cost/Insurance Barrier have 78.3% lower odds of Current Newer Adoption (OR = 0.22, 95% CI: [0.05, 1.01], p = 0.0650). This association is not statistically significant (p >= 0.05).",
+        "rank": 1,
+        "holm_threshold": 0.0125,
+        "holm_adjusted_p": 0.26,
+        "remains_significant": false
+      },
+      {
+        "test_name": "Physician Inertia vs Adoption",
+        "table": [
+          [
+            10,
+            21
+          ],
+          [
+            17,
+            12
+          ]
+        ],
+        "odds_ratio": 0.349,
+        "ci_lower": 0.124,
+        "ci_upper": 0.982,
+        "p_value": 0.0683,
+        "is_significant": false,
+        "interpretation": "Patients with Physician Inertia have 65.1% lower odds of Current Newer Adoption (OR = 0.35, 95% CI: [0.12, 0.98], p = 0.0683). This association is not statistically significant (p >= 0.05).",
+        "rank": 2,
+        "holm_threshold": 0.0167,
+        "holm_adjusted_p": 0.2049,
+        "remains_significant": false
+      },
+      {
+        "test_name": "Side Effects Fear vs Adoption",
+        "table": [
+          [
+            11,
+            21
+          ],
+          [
+            16,
+            12
+          ]
+        ],
+        "odds_ratio": 0.405,
+        "ci_lower": 0.145,
+        "ci_upper": 1.131,
+        "p_value": 0.1184,
+        "is_significant": false,
+        "interpretation": "Patients with Fear of Side Effects have 59.5% lower odds of Current Newer Adoption (OR = 0.41, 95% CI: [0.15, 1.13], p = 0.1184). This association is not statistically significant (p >= 0.05).",
+        "rank": 3,
+        "holm_threshold": 0.025,
+        "holm_adjusted_p": 0.2368,
+        "remains_significant": false
+      },
+      {
+        "test_name": "Initial Dismissal vs Adoption",
+        "table": [
+          [
+            18,
+            21
+          ],
+          [
+            9,
+            12
+          ]
+        ],
+        "odds_ratio": 1.132,
+        "ci_lower": 0.397,
+        "ci_upper": 3.228,
+        "p_value": 1.0,
+        "is_significant": false,
+        "interpretation": "Patients with Initial Symptom Dismissal have 13.2% higher odds of Current Newer Adoption (OR = 1.13, 95% CI: [0.40, 3.23], p = 1.0000). This association is not statistically significant (p >= 0.05).",
+        "rank": 4,
+        "holm_threshold": 0.05,
+        "holm_adjusted_p": 1.0,
+        "remains_significant": false
+      }
+    ],
+    "multivariate_logistic_regression": {
+      "model_status": "SUCCESS",
+      "sample_size": 60,
+      "pseudo_r2": 0.24,
+      "converged": true,
+      "caution": "Sample size caution: With N = 60 and modest cell counts, parameter estimates have wide confidence intervals and potential risk of quasi-complete separation. Results indicate directional trends rather than confirmatory causal effects.",
+      "results": [
+        {
+          "term": "Intercept",
+          "coefficient": 0.4762,
+          "odds_ratio": 1.61,
+          "ci_lower": 0.279,
+          "ci_upper": 9.294,
+          "p_value": 0.5944,
+          "is_significant": false
+        },
+        {
+          "term": "C(age_group, Treatment(reference='40-54'))[T.18-39]",
+          "coefficient": -0.8854,
+          "odds_ratio": 0.413,
+          "ci_lower": 0.043,
+          "ci_upper": 3.967,
+          "p_value": 0.4433,
+          "is_significant": false
+        },
+        {
+          "term": "C(age_group, Treatment(reference='40-54'))[T.55-64]",
+          "coefficient": -1.1986,
+          "odds_ratio": 0.302,
+          "ci_lower": 0.057,
+          "ci_upper": 1.594,
+          "p_value": 0.1583,
+          "is_significant": false
+        },
+        {
+          "term": "C(age_group, Treatment(reference='40-54'))[T.65+]",
+          "coefficient": -1.1018,
+          "odds_ratio": 0.332,
+          "ci_lower": 0.043,
+          "ci_upper": 2.561,
+          "p_value": 0.2903,
+          "is_significant": false
+        },
+        {
+          "term": "C(disease_duration, Treatment(reference='1-3 years'))[T.4-7 years]",
+          "coefficient": 0.5404,
+          "odds_ratio": 1.717,
+          "ci_lower": 0.293,
+          "ci_upper": 10.062,
+          "p_value": 0.5492,
+          "is_significant": false
+        },
+        {
+          "term": "C(disease_duration, Treatment(reference='1-3 years'))[T.8+ years]",
+          "coefficient": 2.7321,
+          "odds_ratio": 15.365,
+          "ci_lower": 1.488,
+          "ci_upper": 158.666,
+          "p_value": 0.0218,
+          "is_significant": true
+        },
+        {
+          "term": "C(disease_duration, Treatment(reference='1-3 years'))[T.<1 year]",
+          "coefficient": -0.6311,
+          "odds_ratio": 0.532,
+          "ci_lower": 0.053,
+          "ci_upper": 5.38,
+          "p_value": 0.5929,
+          "is_significant": false
+        },
+        {
+          "term": "initially_dismissed_int",
+          "coefficient": 0.4872,
+          "odds_ratio": 1.628,
+          "ci_lower": 0.363,
+          "ci_upper": 7.307,
+          "p_value": 0.5248,
+          "is_significant": false
+        },
+        {
+          "term": "has_cost_barrier",
+          "coefficient": -3.1994,
+          "odds_ratio": 0.041,
+          "ci_lower": 0.002,
+          "ci_upper": 0.891,
+          "p_value": 0.042,
+          "is_significant": true
+        }
+      ]
+    }
+  },
+  "data_limitations": {
+    "complete_cohort": {
+      "n": 51,
+      "adoption_rate": 0.549,
+      "ci": [
+        0.4138,
+        0.6773
+      ]
+    },
+    "partial_cohort": {
+      "n": 9,
+      "adoption_rate": 0.5556,
+      "ci": [
+        0.2667,
+        0.8112
+      ]
+    },
+    "bias_audit": {
+      "delta_rate": -0.007,
+      "direction": "understates",
+      "methodological_statement": "Patients with complete interviews exhibited an adoption rate of 54.9% vs 55.6% in truncated interviews. Because unengaged or frustrated patients are more likely to provide brief answers, headline complete-case rates represent an upper bound on real-world adoption."
+    },
+    "sensitivity_analysis": {
+      "original_n": 60,
+      "high_confidence_n": 60,
+      "sensitivity_adoption_rate": 0.55,
+      "sensitivity_ci": [
+        0.4249,
+        0.6691
+      ]
+    }
+  },
+  "client_recommendations": [
+    {
+      "recommendation_number": "1",
+      "pillar": "Access & Prior Authorization Navigators",
+      "headline": "Mitigate the 35%+ Cost Abandonment Funnel via Rapid Digital Co-Pay Support",
+      "finding": "Cost/Insurance is cited by 25.9% of non-adopters, driving significant drop-off between recommendation and fill.",
+      "action": "Deploy point-of-prescribing prior authorization assistance and copay digital cards embedded directly within EHR workflows to eliminate pharmacy counter abandonment."
+    },
+    {
+      "recommendation_number": "2",
+      "pillar": "HCP Clinical Inertia Counter-Detailing",
+      "headline": "Target PCPs on Early Cardio-Renal Risk to Shorten the Treatment Ladder",
+      "finding": "Patients endure a median of 1.0 lines of therapy before accessing newer agents, with physician inertia impacting 63.0% of non-adopters.",
+      "action": "Shift commercial detailing from purely glycemic A1C targets to guideline-directed cardio-renal organ protection, motivating PCPs to initiate GLP-1/SGLT2s as second-line rather than fourth-line therapy."
+    },
+    {
+      "recommendation_number": "3",
+      "pillar": "Formulation Innovation & Injection Hesitancy Outreach",
+      "headline": "Overcome Needle Phobia via Micro-Needle Education and Oral Formulation Portfolio",
+      "finding": "Fear of injections affects 18.5% of non-adopters, creating persistent psychological resistance even after medical indication.",
+      "action": "Arm field nurse educators with demo injection devices to de-escalate needle phobia in clinics, while positioning oral GLP-1/SGLT2 options as frictionless alternatives for needle-hesitant patients."
+    }
+  ]
+}

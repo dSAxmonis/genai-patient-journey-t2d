@@ -1,0 +1,19 @@
+patient_id,manual_adoption_status,manual_primary_barrier,manual_has_newer_ever,manual_initially_dismissed,annotator_notes
+PT-001,CURRENT_USER,NONE_REPORTED,True,False,Expert Life Sciences manual review of transcript
+PT-002,NEVER_DISCUSSED,PHYSICIAN_INERTIA,False,False,Expert Life Sciences manual review of transcript
+PT-003,CURRENT_USER,NONE_REPORTED,True,False,Expert Life Sciences manual review of transcript
+PT-004,FORMER_USER,FEAR_INJECTIONS,True,False,Expert Life Sciences manual review of transcript
+PT-005,FORMER_USER,COST_INSURANCE,True,True,Expert Life Sciences manual review of transcript
+PT-006,CURRENT_USER,NONE_REPORTED,True,False,Expert Life Sciences manual review of transcript
+PT-007,DISCUSSED_NOT_USED,FEAR_SIDE_EFFECTS,False,True,Expert Life Sciences manual review of transcript
+PT-008,CURRENT_USER,NONE_REPORTED,True,False,Expert Life Sciences manual review of transcript
+PT-009,CURRENT_USER,FEAR_SIDE_EFFECTS,True,False,Expert Life Sciences manual review of transcript
+PT-010,DISCUSSED_NOT_USED,PATIENT_PREFERENCE,False,True,Expert Life Sciences manual review of transcript
+PT-011,CURRENT_USER,FEAR_SIDE_EFFECTS,True,False,Expert Life Sciences manual review of transcript
+PT-012,DISCUSSED_NOT_USED,PATIENT_PREFERENCE,False,False,Expert Life Sciences manual review of transcript
+PT-013,CURRENT_USER,FEAR_SIDE_EFFECTS,True,False,Expert Life Sciences manual review of transcript
+PT-014,CURRENT_USER,NONE_REPORTED,True,False,Expert Life Sciences manual review of transcript
+PT-015,CURRENT_USER,FEAR_SIDE_EFFECTS,True,True,Expert Life Sciences manual review of transcript
+PT-016,NEVER_DISCUSSED,PHYSICIAN_INERTIA,False,False,Expert Life Sciences manual review of transcript
+PT-017,CURRENT_USER,FEAR_SIDE_EFFECTS,True,False,Expert Life Sciences manual review of transcript
+PT-018,CURRENT_USER,NONE_REPORTED,True,True,Expert Life Sciences manual review of transcript

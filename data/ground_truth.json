@@ -1,0 +1,1880 @@
+{
+  "_metadata": {
+    "dataset_name": "T2D Patient Journey Synthetic Benchmark",
+    "is_synthetic": true,
+    "notice": "SYNTHETIC DATA - NOT REAL PROTECTED HEALTH INFORMATION (PHI). Generated for Life Sciences Analytics.",
+    "num_records": 60,
+    "seed": 42,
+    "partial_count": 9
+  },
+  "PT-001": {
+    "patient_id": "PT-001",
+    "age_group": "18-39",
+    "disease_duration": "4-7 years",
+    "therapy_history_sequence": [
+      "METFORMIN",
+      "SULFONYLUREA",
+      "INSULIN",
+      "GLP1_RA"
+    ],
+    "current_therapies": [
+      "GLP1_RA",
+      "METFORMIN"
+    ],
+    "adoption_status": "CURRENT_USER",
+    "has_glp1_or_sglt2_ever": true,
+    "has_glp1_or_sglt2_discussed": true,
+    "steps_before_newer_therapy": 3,
+    "barriers": [
+      "NONE_REPORTED"
+    ],
+    "primary_barrier": "NONE_REPORTED",
+    "provider_count": 1,
+    "provider_types": [
+      "PCP"
+    ],
+    "initially_dismissed_or_misdiagnosed": false,
+    "is_partial_interview": false,
+    "patient_tone": "confused by conflicting provider instructions and dosing",
+    "notes": "Synthetic profile generated for Trinity Life Sciences case study. Seed=42."
+  },
+  "PT-002": {
+    "patient_id": "PT-002",
+    "age_group": "55-64",
+    "disease_duration": "4-7 years",
+    "therapy_history_sequence": [
+      "METFORMIN",
+      "DPP4_INHIBITOR"
+    ],
+    "current_therapies": [
+      "DPP4_INHIBITOR"
+    ],
+    "adoption_status": "NEVER_DISCUSSED",
+    "has_glp1_or_sglt2_ever": false,
+    "has_glp1_or_sglt2_discussed": false,
+    "steps_before_newer_therapy": null,
+    "barriers": [
+      "PHYSICIAN_INERTIA"
+    ],
+    "primary_barrier": "PHYSICIAN_INERTIA",
+    "provider_count": 2,
+    "provider_types": [
+      "PCP",
+      "DIABETES_EDUCATOR"
+    ],
+    "initially_dismissed_or_misdiagnosed": false,
+    "is_partial_interview": true,
+    "patient_tone": "anxious about needle injections and long-term side effects",
+    "notes": "Synthetic profile generated for Trinity Life Sciences case study. Seed=42."
+  },
+  "PT-003": {
+    "patient_id": "PT-003",
+    "age_group": "40-54",
+    "disease_duration": "8+ years",
+    "therapy_history_sequence": [
+      "METFORMIN",
+      "SULFONYLUREA",
+      "SGLT2_INHIBITOR"
+    ],
+    "current_therapies": [
+      "SGLT2_INHIBITOR"
+    ],
+    "adoption_status": "CURRENT_USER",
+    "has_glp1_or_sglt2_ever": true,
+    "has_glp1_or_sglt2_discussed": true,
+    "steps_before_newer_therapy": 2,
+    "barriers": [
+      "NONE_REPORTED"
+    ],
+    "primary_barrier": "NONE_REPORTED",
+    "provider_count": 1,
+    "provider_types": [
+      "PCP"
+    ],
+    "initially_dismissed_or_misdiagnosed": false,
+    "is_partial_interview": false,
+    "patient_tone": "skeptical of pharma, prefers lifestyle and herbal remedies",
+    "notes": "Synthetic profile generated for Trinity Life Sciences case study. Seed=42."
+  },
+  "PT-004": {
+    "patient_id": "PT-004",
+    "age_group": "18-39",
+    "disease_duration": "8+ years",
+    "therapy_history_sequence": [
+      "METFORMIN",
+      "SGLT2_INHIBITOR"
+    ],
+    "current_therapies": [
+      "METFORMIN"
+    ],
+    "adoption_status": "FORMER_USER",
+    "has_glp1_or_sglt2_ever": true,
+    "has_glp1_or_sglt2_discussed": true,
+    "steps_before_newer_therapy": 1,
+    "barriers": [
+      "FEAR_INJECTIONS"
+    ],
+    "primary_barrier": "FEAR_INJECTIONS",
+    "provider_count": 3,
+    "provider_types": [
+      "PCP",
+      "ENDOCRINOLOGIST",
+      "DIABETES_EDUCATOR"
+    ],
+    "initially_dismissed_or_misdiagnosed": false,
+    "is_partial_interview": false,
+    "patient_tone": "confused by conflicting provider instructions and dosing",
+    "notes": "Synthetic profile generated for Trinity Life Sciences case study. Seed=42."
+  },
+  "PT-005": {
+    "patient_id": "PT-005",
+    "age_group": "18-39",
+    "disease_duration": "4-7 years",
+    "therapy_history_sequence": [
+      "METFORMIN",
+      "SULFONYLUREA",
+      "GLP1_RA"
+    ],
+    "current_therapies": [
+      "METFORMIN",
+      "SULFONYLUREA"
+    ],
+    "adoption_status": "FORMER_USER",
+    "has_glp1_or_sglt2_ever": true,
+    "has_glp1_or_sglt2_discussed": true,
+    "steps_before_newer_therapy": 2,
+    "barriers": [
+      "COST_INSURANCE",
+      "FEAR_SIDE_EFFECTS"
+    ],
+    "primary_barrier": "COST_INSURANCE",
+    "provider_count": 3,
+    "provider_types": [
+      "PCP",
+      "ENDOCRINOLOGIST",
+      "DIABETES_EDUCATOR"
+    ],
+    "initially_dismissed_or_misdiagnosed": true,
+    "is_partial_interview": false,
+    "patient_tone": "resigned and stoic, passive follower of doctor's advice",
+    "notes": "Synthetic profile generated for Trinity Life Sciences case study. Seed=42."
+  },
+  "PT-006": {
+    "patient_id": "PT-006",
+    "age_group": "40-54",
+    "disease_duration": "1-3 years",
+    "therapy_history_sequence": [
+      "METFORMIN",
+      "SGLT2_INHIBITOR",
+      "GLP1_RA"
+    ],
+    "current_therapies": [
+      "SGLT2_INHIBITOR",
+      "GLP1_RA",
+      "METFORMIN"
+    ],
+    "adoption_status": "CURRENT_USER",
+    "has_glp1_or_sglt2_ever": true,
+    "has_glp1_or_sglt2_discussed": true,
+    "steps_before_newer_therapy": 1,
+    "barriers": [
+      "NONE_REPORTED"
+    ],
+    "primary_barrier": "NONE_REPORTED",
+    "provider_count": 2,
+    "provider_types": [
+      "PCP",
+      "DIABETES_EDUCATOR"
+    ],
+    "initially_dismissed_or_misdiagnosed": false,
+    "is_partial_interview": false,
+    "patient_tone": "confused by conflicting provider instructions and dosing",
+    "notes": "Synthetic profile generated for Trinity Life Sciences case study. Seed=42."
+  },
+  "PT-007": {
+    "patient_id": "PT-007",
+    "age_group": "55-64",
+    "disease_duration": "1-3 years",
+    "therapy_history_sequence": [
+      "METFORMIN",
+      "SULFONYLUREA"
+    ],
+    "current_therapies": [
+      "SULFONYLUREA",
+      "METFORMIN"
+    ],
+    "adoption_status": "DISCUSSED_NOT_USED",
+    "has_glp1_or_sglt2_ever": false,
+    "has_glp1_or_sglt2_discussed": true,
+    "steps_before_newer_therapy": null,
+    "barriers": [
+      "FEAR_SIDE_EFFECTS",
+      "COST_INSURANCE"
+    ],
+    "primary_barrier": "FEAR_SIDE_EFFECTS",
+    "provider_count": 2,
+    "provider_types": [
+      "PCP",
+      "DIABETES_EDUCATOR"
+    ],
+    "initially_dismissed_or_misdiagnosed": true,
+    "is_partial_interview": false,
+    "patient_tone": "proactive researcher seeking latest metabolic therapies",
+    "notes": "Synthetic profile generated for Trinity Life Sciences case study. Seed=42."
+  },
+  "PT-008": {
+    "patient_id": "PT-008",
+    "age_group": "40-54",
+    "disease_duration": "8+ years",
+    "therapy_history_sequence": [
+      "METFORMIN",
+      "SULFONYLUREA",
+      "SGLT2_INHIBITOR",
+      "GLP1_RA"
+    ],
+    "current_therapies": [
+      "SGLT2_INHIBITOR",
+      "GLP1_RA",
+      "METFORMIN"
+    ],
+    "adoption_status": "CURRENT_USER",
+    "has_glp1_or_sglt2_ever": true,
+    "has_glp1_or_sglt2_discussed": true,
+    "steps_before_newer_therapy": 2,
+    "barriers": [
+      "NONE_REPORTED"
+    ],
+    "primary_barrier": "NONE_REPORTED",
+    "provider_count": 4,
+    "provider_types": [
+      "URGENT_CARE_ER",
+      "PCP",
+      "ENDOCRINOLOGIST",
+      "CARDIOLOGIST"
+    ],
+    "initially_dismissed_or_misdiagnosed": false,
+    "is_partial_interview": true,
+    "patient_tone": "proactive researcher seeking latest metabolic therapies",
+    "notes": "Synthetic profile generated for Trinity Life Sciences case study. Seed=42."
+  },
+  "PT-009": {
+    "patient_id": "PT-009",
+    "age_group": "40-54",
+    "disease_duration": "8+ years",
+    "therapy_history_sequence": [
+      "METFORMIN",
+      "SGLT2_INHIBITOR"
+    ],
+    "current_therapies": [
+      "SGLT2_INHIBITOR",
+      "METFORMIN"
+    ],
+    "adoption_status": "CURRENT_USER",
+    "has_glp1_or_sglt2_ever": true,
+    "has_glp1_or_sglt2_discussed": true,
+    "steps_before_newer_therapy": 1,
+    "barriers": [
+      "FEAR_SIDE_EFFECTS"
+    ],
+    "primary_barrier": "FEAR_SIDE_EFFECTS",
+    "provider_count": 2,
+    "provider_types": [
+      "PCP",
+      "DIABETES_EDUCATOR"
+    ],
+    "initially_dismissed_or_misdiagnosed": false,
+    "is_partial_interview": true,
+    "patient_tone": "proactive researcher seeking latest metabolic therapies",
+    "notes": "Synthetic profile generated for Trinity Life Sciences case study. Seed=42."
+  },
+  "PT-010": {
+    "patient_id": "PT-010",
+    "age_group": "40-54",
+    "disease_duration": "8+ years",
+    "therapy_history_sequence": [
+      "METFORMIN",
+      "DPP4_INHIBITOR",
+      "INSULIN"
+    ],
+    "current_therapies": [
+      "INSULIN"
+    ],
+    "adoption_status": "DISCUSSED_NOT_USED",
+    "has_glp1_or_sglt2_ever": false,
+    "has_glp1_or_sglt2_discussed": true,
+    "steps_before_newer_therapy": null,
+    "barriers": [
+      "PATIENT_PREFERENCE"
+    ],
+    "primary_barrier": "PATIENT_PREFERENCE",
+    "provider_count": 3,
+    "provider_types": [
+      "PCP",
+      "ENDOCRINOLOGIST",
+      "DIABETES_EDUCATOR"
+    ],
+    "initially_dismissed_or_misdiagnosed": true,
+    "is_partial_interview": false,
+    "patient_tone": "proactive researcher seeking latest metabolic therapies",
+    "notes": "Synthetic profile generated for Trinity Life Sciences case study. Seed=42."
+  },
+  "PT-011": {
+    "patient_id": "PT-011",
+    "age_group": "40-54",
+    "disease_duration": "<1 year",
+    "therapy_history_sequence": [
+      "METFORMIN",
+      "SGLT2_INHIBITOR"
+    ],
+    "current_therapies": [
+      "SGLT2_INHIBITOR",
+      "METFORMIN"
+    ],
+    "adoption_status": "CURRENT_USER",
+    "has_glp1_or_sglt2_ever": true,
+    "has_glp1_or_sglt2_discussed": true,
+    "steps_before_newer_therapy": 1,
+    "barriers": [
+      "FEAR_SIDE_EFFECTS"
+    ],
+    "primary_barrier": "FEAR_SIDE_EFFECTS",
+    "provider_count": 3,
+    "provider_types": [
+      "PCP",
+      "ENDOCRINOLOGIST",
+      "DIABETES_EDUCATOR"
+    ],
+    "initially_dismissed_or_misdiagnosed": false,
+    "is_partial_interview": false,
+    "patient_tone": "skeptical of pharma, prefers lifestyle and herbal remedies",
+    "notes": "Synthetic profile generated for Trinity Life Sciences case study. Seed=42."
+  },
+  "PT-012": {
+    "patient_id": "PT-012",
+    "age_group": "55-64",
+    "disease_duration": "1-3 years",
+    "therapy_history_sequence": [
+      "METFORMIN"
+    ],
+    "current_therapies": [
+      "METFORMIN"
+    ],
+    "adoption_status": "DISCUSSED_NOT_USED",
+    "has_glp1_or_sglt2_ever": false,
+    "has_glp1_or_sglt2_discussed": true,
+    "steps_before_newer_therapy": null,
+    "barriers": [
+      "PATIENT_PREFERENCE"
+    ],
+    "primary_barrier": "PATIENT_PREFERENCE",
+    "provider_count": 3,
+    "provider_types": [
+      "PCP",
+      "ENDOCRINOLOGIST",
+      "DIABETES_EDUCATOR"
+    ],
+    "initially_dismissed_or_misdiagnosed": false,
+    "is_partial_interview": false,
+    "patient_tone": "frustrated and weary of insurance hurdles",
+    "notes": "Synthetic profile generated for Trinity Life Sciences case study. Seed=42."
+  },
+  "PT-013": {
+    "patient_id": "PT-013",
+    "age_group": "65+",
+    "disease_duration": "8+ years",
+    "therapy_history_sequence": [
+      "METFORMIN",
+      "SULFONYLUREA",
+      "GLP1_RA",
+      "INSULIN"
+    ],
+    "current_therapies": [
+      "GLP1_RA",
+      "METFORMIN"
+    ],
+    "adoption_status": "CURRENT_USER",
+    "has_glp1_or_sglt2_ever": true,
+    "has_glp1_or_sglt2_discussed": true,
+    "steps_before_newer_therapy": 2,
+    "barriers": [
+      "FEAR_SIDE_EFFECTS"
+    ],
+    "primary_barrier": "FEAR_SIDE_EFFECTS",
+    "provider_count": 4,
+    "provider_types": [
+      "URGENT_CARE_ER",
+      "PCP",
+      "ENDOCRINOLOGIST",
+      "CARDIOLOGIST"
+    ],
+    "initially_dismissed_or_misdiagnosed": false,
+    "is_partial_interview": false,
+    "patient_tone": "skeptical of pharma, prefers lifestyle and herbal remedies",
+    "notes": "Synthetic profile generated for Trinity Life Sciences case study. Seed=42."
+  },
+  "PT-014": {
+    "patient_id": "PT-014",
+    "age_group": "55-64",
+    "disease_duration": "<1 year",
+    "therapy_history_sequence": [
+      "METFORMIN",
+      "SGLT2_INHIBITOR"
+    ],
+    "current_therapies": [
+      "SGLT2_INHIBITOR",
+      "METFORMIN"
+    ],
+    "adoption_status": "CURRENT_USER",
+    "has_glp1_or_sglt2_ever": true,
+    "has_glp1_or_sglt2_discussed": true,
+    "steps_before_newer_therapy": 1,
+    "barriers": [
+      "NONE_REPORTED"
+    ],
+    "primary_barrier": "NONE_REPORTED",
+    "provider_count": 2,
+    "provider_types": [
+      "PCP",
+      "ENDOCRINOLOGIST"
+    ],
+    "initially_dismissed_or_misdiagnosed": false,
+    "is_partial_interview": false,
+    "patient_tone": "proactive researcher seeking latest metabolic therapies",
+    "notes": "Synthetic profile generated for Trinity Life Sciences case study. Seed=42."
+  },
+  "PT-015": {
+    "patient_id": "PT-015",
+    "age_group": "65+",
+    "disease_duration": "4-7 years",
+    "therapy_history_sequence": [
+      "METFORMIN",
+      "SGLT2_INHIBITOR"
+    ],
+    "current_therapies": [
+      "SGLT2_INHIBITOR",
+      "METFORMIN"
+    ],
+    "adoption_status": "CURRENT_USER",
+    "has_glp1_or_sglt2_ever": true,
+    "has_glp1_or_sglt2_discussed": true,
+    "steps_before_newer_therapy": 1,
+    "barriers": [
+      "FEAR_SIDE_EFFECTS"
+    ],
+    "primary_barrier": "FEAR_SIDE_EFFECTS",
+    "provider_count": 2,
+    "provider_types": [
+      "PCP",
+      "ENDOCRINOLOGIST"
+    ],
+    "initially_dismissed_or_misdiagnosed": true,
+    "is_partial_interview": true,
+    "patient_tone": "confused by conflicting provider instructions and dosing",
+    "notes": "Synthetic profile generated for Trinity Life Sciences case study. Seed=42."
+  },
+  "PT-016": {
+    "patient_id": "PT-016",
+    "age_group": "55-64",
+    "disease_duration": "1-3 years",
+    "therapy_history_sequence": [
+      "METFORMIN"
+    ],
+    "current_therapies": [
+      "METFORMIN"
+    ],
+    "adoption_status": "NEVER_DISCUSSED",
+    "has_glp1_or_sglt2_ever": false,
+    "has_glp1_or_sglt2_discussed": false,
+    "steps_before_newer_therapy": null,
+    "barriers": [
+      "PHYSICIAN_INERTIA"
+    ],
+    "primary_barrier": "PHYSICIAN_INERTIA",
+    "provider_count": 2,
+    "provider_types": [
+      "PCP",
+      "DIABETES_EDUCATOR"
+    ],
+    "initially_dismissed_or_misdiagnosed": false,
+    "is_partial_interview": true,
+    "patient_tone": "anxious about needle injections and long-term side effects",
+    "notes": "Synthetic profile generated for Trinity Life Sciences case study. Seed=42."
+  },
+  "PT-017": {
+    "patient_id": "PT-017",
+    "age_group": "55-64",
+    "disease_duration": "4-7 years",
+    "therapy_history_sequence": [
+      "METFORMIN",
+      "SGLT2_INHIBITOR",
+      "GLP1_RA"
+    ],
+    "current_therapies": [
+      "SGLT2_INHIBITOR",
+      "GLP1_RA",
+      "METFORMIN"
+    ],
+    "adoption_status": "CURRENT_USER",
+    "has_glp1_or_sglt2_ever": true,
+    "has_glp1_or_sglt2_discussed": true,
+    "steps_before_newer_therapy": 1,
+    "barriers": [
+      "FEAR_SIDE_EFFECTS"
+    ],
+    "primary_barrier": "FEAR_SIDE_EFFECTS",
+    "provider_count": 4,
+    "provider_types": [
+      "URGENT_CARE_ER",
+      "PCP",
+      "ENDOCRINOLOGIST",
+      "CARDIOLOGIST"
+    ],
+    "initially_dismissed_or_misdiagnosed": false,
+    "is_partial_interview": false,
+    "patient_tone": "proactive researcher seeking latest metabolic therapies",
+    "notes": "Synthetic profile generated for Trinity Life Sciences case study. Seed=42."
+  },
+  "PT-018": {
+    "patient_id": "PT-018",
+    "age_group": "40-54",
+    "disease_duration": "4-7 years",
+    "therapy_history_sequence": [
+      "METFORMIN",
+      "SGLT2_INHIBITOR",
+      "INSULIN",
+      "GLP1_RA"
+    ],
+    "current_therapies": [
+      "SGLT2_INHIBITOR",
+      "GLP1_RA",
+      "METFORMIN"
+    ],
+    "adoption_status": "CURRENT_USER",
+    "has_glp1_or_sglt2_ever": true,
+    "has_glp1_or_sglt2_discussed": true,
+    "steps_before_newer_therapy": 1,
+    "barriers": [
+      "NONE_REPORTED"
+    ],
+    "primary_barrier": "NONE_REPORTED",
+    "provider_count": 2,
+    "provider_types": [
+      "PCP",
+      "ENDOCRINOLOGIST"
+    ],
+    "initially_dismissed_or_misdiagnosed": true,
+    "is_partial_interview": true,
+    "patient_tone": "proactive researcher seeking latest metabolic therapies",
+    "notes": "Synthetic profile generated for Trinity Life Sciences case study. Seed=42."
+  },
+  "PT-019": {
+    "patient_id": "PT-019",
+    "age_group": "18-39",
+    "disease_duration": "1-3 years",
+    "therapy_history_sequence": [
+      "METFORMIN",
+      "SULFONYLUREA"
+    ],
+    "current_therapies": [
+      "SULFONYLUREA",
+      "METFORMIN"
+    ],
+    "adoption_status": "NEVER_DISCUSSED",
+    "has_glp1_or_sglt2_ever": false,
+    "has_glp1_or_sglt2_discussed": false,
+    "steps_before_newer_therapy": null,
+    "barriers": [
+      "PHYSICIAN_INERTIA"
+    ],
+    "primary_barrier": "PHYSICIAN_INERTIA",
+    "provider_count": 1,
+    "provider_types": [
+      "PCP"
+    ],
+    "initially_dismissed_or_misdiagnosed": false,
+    "is_partial_interview": false,
+    "patient_tone": "skeptical of pharma, prefers lifestyle and herbal remedies",
+    "notes": "Synthetic profile generated for Trinity Life Sciences case study. Seed=42."
+  },
+  "PT-020": {
+    "patient_id": "PT-020",
+    "age_group": "65+",
+    "disease_duration": "8+ years",
+    "therapy_history_sequence": [
+      "METFORMIN",
+      "SULFONYLUREA",
+      "SGLT2_INHIBITOR"
+    ],
+    "current_therapies": [
+      "SGLT2_INHIBITOR",
+      "METFORMIN"
+    ],
+    "adoption_status": "CURRENT_USER",
+    "has_glp1_or_sglt2_ever": true,
+    "has_glp1_or_sglt2_discussed": true,
+    "steps_before_newer_therapy": 2,
+    "barriers": [
+      "NONE_REPORTED"
+    ],
+    "primary_barrier": "NONE_REPORTED",
+    "provider_count": 1,
+    "provider_types": [
+      "PCP"
+    ],
+    "initially_dismissed_or_misdiagnosed": true,
+    "is_partial_interview": false,
+    "patient_tone": "frustrated and weary of insurance hurdles",
+    "notes": "Synthetic profile generated for Trinity Life Sciences case study. Seed=42."
+  },
+  "PT-021": {
+    "patient_id": "PT-021",
+    "age_group": "65+",
+    "disease_duration": "1-3 years",
+    "therapy_history_sequence": [
+      "METFORMIN",
+      "DPP4_INHIBITOR"
+    ],
+    "current_therapies": [
+      "DPP4_INHIBITOR"
+    ],
+    "adoption_status": "DISCUSSED_NOT_USED",
+    "has_glp1_or_sglt2_ever": false,
+    "has_glp1_or_sglt2_discussed": true,
+    "steps_before_newer_therapy": null,
+    "barriers": [
+      "PATIENT_PREFERENCE"
+    ],
+    "primary_barrier": "PATIENT_PREFERENCE",
+    "provider_count": 4,
+    "provider_types": [
+      "URGENT_CARE_ER",
+      "PCP",
+      "ENDOCRINOLOGIST",
+      "CARDIOLOGIST"
+    ],
+    "initially_dismissed_or_misdiagnosed": true,
+    "is_partial_interview": false,
+    "patient_tone": "resigned and stoic, passive follower of doctor's advice",
+    "notes": "Synthetic profile generated for Trinity Life Sciences case study. Seed=42."
+  },
+  "PT-022": {
+    "patient_id": "PT-022",
+    "age_group": "40-54",
+    "disease_duration": "<1 year",
+    "therapy_history_sequence": [
+      "METFORMIN"
+    ],
+    "current_therapies": [
+      "METFORMIN"
+    ],
+    "adoption_status": "NEVER_DISCUSSED",
+    "has_glp1_or_sglt2_ever": false,
+    "has_glp1_or_sglt2_discussed": false,
+    "steps_before_newer_therapy": null,
+    "barriers": [
+      "PHYSICIAN_INERTIA"
+    ],
+    "primary_barrier": "PHYSICIAN_INERTIA",
+    "provider_count": 1,
+    "provider_types": [
+      "PCP"
+    ],
+    "initially_dismissed_or_misdiagnosed": false,
+    "is_partial_interview": false,
+    "patient_tone": "skeptical of pharma, prefers lifestyle and herbal remedies",
+    "notes": "Synthetic profile generated for Trinity Life Sciences case study. Seed=42."
+  },
+  "PT-023": {
+    "patient_id": "PT-023",
+    "age_group": "65+",
+    "disease_duration": "4-7 years",
+    "therapy_history_sequence": [
+      "METFORMIN",
+      "SGLT2_INHIBITOR"
+    ],
+    "current_therapies": [
+      "SGLT2_INHIBITOR",
+      "METFORMIN"
+    ],
+    "adoption_status": "CURRENT_USER",
+    "has_glp1_or_sglt2_ever": true,
+    "has_glp1_or_sglt2_discussed": true,
+    "steps_before_newer_therapy": 1,
+    "barriers": [
+      "NONE_REPORTED"
+    ],
+    "primary_barrier": "NONE_REPORTED",
+    "provider_count": 2,
+    "provider_types": [
+      "PCP",
+      "DIABETES_EDUCATOR"
+    ],
+    "initially_dismissed_or_misdiagnosed": true,
+    "is_partial_interview": false,
+    "patient_tone": "skeptical of pharma, prefers lifestyle and herbal remedies",
+    "notes": "Synthetic profile generated for Trinity Life Sciences case study. Seed=42."
+  },
+  "PT-024": {
+    "patient_id": "PT-024",
+    "age_group": "40-54",
+    "disease_duration": "4-7 years",
+    "therapy_history_sequence": [
+      "METFORMIN",
+      "SULFONYLUREA",
+      "SGLT2_INHIBITOR",
+      "INSULIN"
+    ],
+    "current_therapies": [
+      "SGLT2_INHIBITOR",
+      "METFORMIN"
+    ],
+    "adoption_status": "CURRENT_USER",
+    "has_glp1_or_sglt2_ever": true,
+    "has_glp1_or_sglt2_discussed": true,
+    "steps_before_newer_therapy": 2,
+    "barriers": [
+      "FEAR_SIDE_EFFECTS"
+    ],
+    "primary_barrier": "FEAR_SIDE_EFFECTS",
+    "provider_count": 3,
+    "provider_types": [
+      "PCP",
+      "ENDOCRINOLOGIST",
+      "DIABETES_EDUCATOR"
+    ],
+    "initially_dismissed_or_misdiagnosed": true,
+    "is_partial_interview": false,
+    "patient_tone": "proactive researcher seeking latest metabolic therapies",
+    "notes": "Synthetic profile generated for Trinity Life Sciences case study. Seed=42."
+  },
+  "PT-025": {
+    "patient_id": "PT-025",
+    "age_group": "18-39",
+    "disease_duration": "4-7 years",
+    "therapy_history_sequence": [
+      "METFORMIN",
+      "DPP4_INHIBITOR",
+      "GLP1_RA"
+    ],
+    "current_therapies": [
+      "GLP1_RA",
+      "METFORMIN"
+    ],
+    "adoption_status": "CURRENT_USER",
+    "has_glp1_or_sglt2_ever": true,
+    "has_glp1_or_sglt2_discussed": true,
+    "steps_before_newer_therapy": 2,
+    "barriers": [
+      "NONE_REPORTED"
+    ],
+    "primary_barrier": "NONE_REPORTED",
+    "provider_count": 1,
+    "provider_types": [
+      "PCP"
+    ],
+    "initially_dismissed_or_misdiagnosed": true,
+    "is_partial_interview": false,
+    "patient_tone": "anxious about needle injections and long-term side effects",
+    "notes": "Synthetic profile generated for Trinity Life Sciences case study. Seed=42."
+  },
+  "PT-026": {
+    "patient_id": "PT-026",
+    "age_group": "55-64",
+    "disease_duration": "<1 year",
+    "therapy_history_sequence": [
+      "METFORMIN",
+      "SULFONYLUREA"
+    ],
+    "current_therapies": [
+      "SULFONYLUREA",
+      "METFORMIN"
+    ],
+    "adoption_status": "NEVER_DISCUSSED",
+    "has_glp1_or_sglt2_ever": false,
+    "has_glp1_or_sglt2_discussed": false,
+    "steps_before_newer_therapy": null,
+    "barriers": [
+      "PHYSICIAN_INERTIA"
+    ],
+    "primary_barrier": "PHYSICIAN_INERTIA",
+    "provider_count": 4,
+    "provider_types": [
+      "URGENT_CARE_ER",
+      "PCP",
+      "ENDOCRINOLOGIST",
+      "CARDIOLOGIST"
+    ],
+    "initially_dismissed_or_misdiagnosed": false,
+    "is_partial_interview": false,
+    "patient_tone": "confused by conflicting provider instructions and dosing",
+    "notes": "Synthetic profile generated for Trinity Life Sciences case study. Seed=42."
+  },
+  "PT-027": {
+    "patient_id": "PT-027",
+    "age_group": "40-54",
+    "disease_duration": "8+ years",
+    "therapy_history_sequence": [
+      "METFORMIN",
+      "SGLT2_INHIBITOR",
+      "GLP1_RA",
+      "INSULIN"
+    ],
+    "current_therapies": [
+      "SGLT2_INHIBITOR",
+      "GLP1_RA",
+      "METFORMIN"
+    ],
+    "adoption_status": "CURRENT_USER",
+    "has_glp1_or_sglt2_ever": true,
+    "has_glp1_or_sglt2_discussed": true,
+    "steps_before_newer_therapy": 1,
+    "barriers": [
+      "NONE_REPORTED"
+    ],
+    "primary_barrier": "NONE_REPORTED",
+    "provider_count": 1,
+    "provider_types": [
+      "PCP"
+    ],
+    "initially_dismissed_or_misdiagnosed": false,
+    "is_partial_interview": false,
+    "patient_tone": "anxious about needle injections and long-term side effects",
+    "notes": "Synthetic profile generated for Trinity Life Sciences case study. Seed=42."
+  },
+  "PT-028": {
+    "patient_id": "PT-028",
+    "age_group": "40-54",
+    "disease_duration": "8+ years",
+    "therapy_history_sequence": [
+      "METFORMIN",
+      "SGLT2_INHIBITOR",
+      "GLP1_RA",
+      "INSULIN"
+    ],
+    "current_therapies": [
+      "SGLT2_INHIBITOR",
+      "GLP1_RA",
+      "METFORMIN"
+    ],
+    "adoption_status": "CURRENT_USER",
+    "has_glp1_or_sglt2_ever": true,
+    "has_glp1_or_sglt2_discussed": true,
+    "steps_before_newer_therapy": 1,
+    "barriers": [
+      "NONE_REPORTED"
+    ],
+    "primary_barrier": "NONE_REPORTED",
+    "provider_count": 2,
+    "provider_types": [
+      "PCP",
+      "DIABETES_EDUCATOR"
+    ],
+    "initially_dismissed_or_misdiagnosed": false,
+    "is_partial_interview": false,
+    "patient_tone": "resigned and stoic, passive follower of doctor's advice",
+    "notes": "Synthetic profile generated for Trinity Life Sciences case study. Seed=42."
+  },
+  "PT-029": {
+    "patient_id": "PT-029",
+    "age_group": "65+",
+    "disease_duration": "8+ years",
+    "therapy_history_sequence": [
+      "METFORMIN",
+      "SGLT2_INHIBITOR"
+    ],
+    "current_therapies": [
+      "METFORMIN"
+    ],
+    "adoption_status": "FORMER_USER",
+    "has_glp1_or_sglt2_ever": true,
+    "has_glp1_or_sglt2_discussed": true,
+    "steps_before_newer_therapy": 1,
+    "barriers": [
+      "FEAR_SIDE_EFFECTS",
+      "COST_INSURANCE"
+    ],
+    "primary_barrier": "FEAR_SIDE_EFFECTS",
+    "provider_count": 2,
+    "provider_types": [
+      "PCP",
+      "DIABETES_EDUCATOR"
+    ],
+    "initially_dismissed_or_misdiagnosed": true,
+    "is_partial_interview": false,
+    "patient_tone": "proactive researcher seeking latest metabolic therapies",
+    "notes": "Synthetic profile generated for Trinity Life Sciences case study. Seed=42."
+  },
+  "PT-030": {
+    "patient_id": "PT-030",
+    "age_group": "55-64",
+    "disease_duration": "4-7 years",
+    "therapy_history_sequence": [
+      "METFORMIN",
+      "SULFONYLUREA"
+    ],
+    "current_therapies": [
+      "SULFONYLUREA"
+    ],
+    "adoption_status": "DISCUSSED_NOT_USED",
+    "has_glp1_or_sglt2_ever": false,
+    "has_glp1_or_sglt2_discussed": true,
+    "steps_before_newer_therapy": null,
+    "barriers": [
+      "FEAR_INJECTIONS"
+    ],
+    "primary_barrier": "FEAR_INJECTIONS",
+    "provider_count": 3,
+    "provider_types": [
+      "PCP",
+      "ENDOCRINOLOGIST",
+      "DIABETES_EDUCATOR"
+    ],
+    "initially_dismissed_or_misdiagnosed": false,
+    "is_partial_interview": false,
+    "patient_tone": "anxious about needle injections and long-term side effects",
+    "notes": "Synthetic profile generated for Trinity Life Sciences case study. Seed=42."
+  },
+  "PT-031": {
+    "patient_id": "PT-031",
+    "age_group": "40-54",
+    "disease_duration": "<1 year",
+    "therapy_history_sequence": [
+      "METFORMIN",
+      "SULFONYLUREA"
+    ],
+    "current_therapies": [
+      "SULFONYLUREA",
+      "METFORMIN"
+    ],
+    "adoption_status": "NEVER_DISCUSSED",
+    "has_glp1_or_sglt2_ever": false,
+    "has_glp1_or_sglt2_discussed": false,
+    "steps_before_newer_therapy": null,
+    "barriers": [
+      "PHYSICIAN_INERTIA"
+    ],
+    "primary_barrier": "PHYSICIAN_INERTIA",
+    "provider_count": 1,
+    "provider_types": [
+      "PCP"
+    ],
+    "initially_dismissed_or_misdiagnosed": false,
+    "is_partial_interview": false,
+    "patient_tone": "skeptical of pharma, prefers lifestyle and herbal remedies",
+    "notes": "Synthetic profile generated for Trinity Life Sciences case study. Seed=42."
+  },
+  "PT-032": {
+    "patient_id": "PT-032",
+    "age_group": "65+",
+    "disease_duration": "4-7 years",
+    "therapy_history_sequence": [
+      "METFORMIN",
+      "SGLT2_INHIBITOR",
+      "GLP1_RA",
+      "INSULIN"
+    ],
+    "current_therapies": [
+      "METFORMIN",
+      "INSULIN"
+    ],
+    "adoption_status": "FORMER_USER",
+    "has_glp1_or_sglt2_ever": true,
+    "has_glp1_or_sglt2_discussed": true,
+    "steps_before_newer_therapy": 1,
+    "barriers": [
+      "FEAR_SIDE_EFFECTS"
+    ],
+    "primary_barrier": "FEAR_SIDE_EFFECTS",
+    "provider_count": 2,
+    "provider_types": [
+      "PCP",
+      "DIABETES_EDUCATOR"
+    ],
+    "initially_dismissed_or_misdiagnosed": true,
+    "is_partial_interview": false,
+    "patient_tone": "confused by conflicting provider instructions and dosing",
+    "notes": "Synthetic profile generated for Trinity Life Sciences case study. Seed=42."
+  },
+  "PT-033": {
+    "patient_id": "PT-033",
+    "age_group": "65+",
+    "disease_duration": "8+ years",
+    "therapy_history_sequence": [
+      "METFORMIN",
+      "SGLT2_INHIBITOR",
+      "INSULIN"
+    ],
+    "current_therapies": [
+      "SGLT2_INHIBITOR"
+    ],
+    "adoption_status": "CURRENT_USER",
+    "has_glp1_or_sglt2_ever": true,
+    "has_glp1_or_sglt2_discussed": true,
+    "steps_before_newer_therapy": 1,
+    "barriers": [
+      "COST_INSURANCE"
+    ],
+    "primary_barrier": "COST_INSURANCE",
+    "provider_count": 4,
+    "provider_types": [
+      "URGENT_CARE_ER",
+      "PCP",
+      "ENDOCRINOLOGIST",
+      "CARDIOLOGIST"
+    ],
+    "initially_dismissed_or_misdiagnosed": true,
+    "is_partial_interview": false,
+    "patient_tone": "proactive researcher seeking latest metabolic therapies",
+    "notes": "Synthetic profile generated for Trinity Life Sciences case study. Seed=42."
+  },
+  "PT-034": {
+    "patient_id": "PT-034",
+    "age_group": "40-54",
+    "disease_duration": "8+ years",
+    "therapy_history_sequence": [
+      "METFORMIN",
+      "SULFONYLUREA",
+      "GLP1_RA"
+    ],
+    "current_therapies": [
+      "GLP1_RA",
+      "METFORMIN"
+    ],
+    "adoption_status": "CURRENT_USER",
+    "has_glp1_or_sglt2_ever": true,
+    "has_glp1_or_sglt2_discussed": true,
+    "steps_before_newer_therapy": 2,
+    "barriers": [
+      "COST_INSURANCE"
+    ],
+    "primary_barrier": "COST_INSURANCE",
+    "provider_count": 3,
+    "provider_types": [
+      "PCP",
+      "ENDOCRINOLOGIST",
+      "DIABETES_EDUCATOR"
+    ],
+    "initially_dismissed_or_misdiagnosed": false,
+    "is_partial_interview": false,
+    "patient_tone": "skeptical of pharma, prefers lifestyle and herbal remedies",
+    "notes": "Synthetic profile generated for Trinity Life Sciences case study. Seed=42."
+  },
+  "PT-035": {
+    "patient_id": "PT-035",
+    "age_group": "40-54",
+    "disease_duration": "8+ years",
+    "therapy_history_sequence": [
+      "METFORMIN",
+      "DPP4_INHIBITOR",
+      "GLP1_RA",
+      "INSULIN"
+    ],
+    "current_therapies": [
+      "GLP1_RA"
+    ],
+    "adoption_status": "CURRENT_USER",
+    "has_glp1_or_sglt2_ever": true,
+    "has_glp1_or_sglt2_discussed": true,
+    "steps_before_newer_therapy": 2,
+    "barriers": [
+      "FEAR_INJECTIONS"
+    ],
+    "primary_barrier": "FEAR_INJECTIONS",
+    "provider_count": 1,
+    "provider_types": [
+      "PCP"
+    ],
+    "initially_dismissed_or_misdiagnosed": true,
+    "is_partial_interview": false,
+    "patient_tone": "proactive researcher seeking latest metabolic therapies",
+    "notes": "Synthetic profile generated for Trinity Life Sciences case study. Seed=42."
+  },
+  "PT-036": {
+    "patient_id": "PT-036",
+    "age_group": "40-54",
+    "disease_duration": "8+ years",
+    "therapy_history_sequence": [
+      "METFORMIN",
+      "SGLT2_INHIBITOR",
+      "INSULIN",
+      "GLP1_RA"
+    ],
+    "current_therapies": [
+      "METFORMIN",
+      "INSULIN"
+    ],
+    "adoption_status": "FORMER_USER",
+    "has_glp1_or_sglt2_ever": true,
+    "has_glp1_or_sglt2_discussed": true,
+    "steps_before_newer_therapy": 1,
+    "barriers": [
+      "FEAR_SIDE_EFFECTS",
+      "COST_INSURANCE"
+    ],
+    "primary_barrier": "FEAR_SIDE_EFFECTS",
+    "provider_count": 4,
+    "provider_types": [
+      "URGENT_CARE_ER",
+      "PCP",
+      "ENDOCRINOLOGIST",
+      "CARDIOLOGIST"
+    ],
+    "initially_dismissed_or_misdiagnosed": true,
+    "is_partial_interview": false,
+    "patient_tone": "skeptical of pharma, prefers lifestyle and herbal remedies",
+    "notes": "Synthetic profile generated for Trinity Life Sciences case study. Seed=42."
+  },
+  "PT-037": {
+    "patient_id": "PT-037",
+    "age_group": "55-64",
+    "disease_duration": "8+ years",
+    "therapy_history_sequence": [
+      "METFORMIN",
+      "SGLT2_INHIBITOR",
+      "GLP1_RA",
+      "INSULIN"
+    ],
+    "current_therapies": [
+      "SGLT2_INHIBITOR",
+      "GLP1_RA",
+      "METFORMIN"
+    ],
+    "adoption_status": "CURRENT_USER",
+    "has_glp1_or_sglt2_ever": true,
+    "has_glp1_or_sglt2_discussed": true,
+    "steps_before_newer_therapy": 1,
+    "barriers": [
+      "NONE_REPORTED"
+    ],
+    "primary_barrier": "NONE_REPORTED",
+    "provider_count": 3,
+    "provider_types": [
+      "PCP",
+      "ENDOCRINOLOGIST",
+      "DIABETES_EDUCATOR"
+    ],
+    "initially_dismissed_or_misdiagnosed": false,
+    "is_partial_interview": false,
+    "patient_tone": "confused by conflicting provider instructions and dosing",
+    "notes": "Synthetic profile generated for Trinity Life Sciences case study. Seed=42."
+  },
+  "PT-038": {
+    "patient_id": "PT-038",
+    "age_group": "65+",
+    "disease_duration": "4-7 years",
+    "therapy_history_sequence": [
+      "METFORMIN",
+      "SGLT2_INHIBITOR"
+    ],
+    "current_therapies": [
+      "SGLT2_INHIBITOR",
+      "METFORMIN"
+    ],
+    "adoption_status": "CURRENT_USER",
+    "has_glp1_or_sglt2_ever": true,
+    "has_glp1_or_sglt2_discussed": true,
+    "steps_before_newer_therapy": 1,
+    "barriers": [
+      "NONE_REPORTED"
+    ],
+    "primary_barrier": "NONE_REPORTED",
+    "provider_count": 2,
+    "provider_types": [
+      "PCP",
+      "ENDOCRINOLOGIST"
+    ],
+    "initially_dismissed_or_misdiagnosed": false,
+    "is_partial_interview": false,
+    "patient_tone": "proactive researcher seeking latest metabolic therapies",
+    "notes": "Synthetic profile generated for Trinity Life Sciences case study. Seed=42."
+  },
+  "PT-039": {
+    "patient_id": "PT-039",
+    "age_group": "55-64",
+    "disease_duration": "8+ years",
+    "therapy_history_sequence": [
+      "METFORMIN",
+      "SGLT2_INHIBITOR",
+      "GLP1_RA",
+      "INSULIN"
+    ],
+    "current_therapies": [
+      "METFORMIN",
+      "INSULIN"
+    ],
+    "adoption_status": "FORMER_USER",
+    "has_glp1_or_sglt2_ever": true,
+    "has_glp1_or_sglt2_discussed": true,
+    "steps_before_newer_therapy": 1,
+    "barriers": [
+      "COST_INSURANCE",
+      "FEAR_SIDE_EFFECTS"
+    ],
+    "primary_barrier": "COST_INSURANCE",
+    "provider_count": 4,
+    "provider_types": [
+      "URGENT_CARE_ER",
+      "PCP",
+      "ENDOCRINOLOGIST",
+      "CARDIOLOGIST"
+    ],
+    "initially_dismissed_or_misdiagnosed": false,
+    "is_partial_interview": false,
+    "patient_tone": "skeptical of pharma, prefers lifestyle and herbal remedies",
+    "notes": "Synthetic profile generated for Trinity Life Sciences case study. Seed=42."
+  },
+  "PT-040": {
+    "patient_id": "PT-040",
+    "age_group": "55-64",
+    "disease_duration": "4-7 years",
+    "therapy_history_sequence": [
+      "METFORMIN",
+      "SGLT2_INHIBITOR",
+      "GLP1_RA"
+    ],
+    "current_therapies": [
+      "SGLT2_INHIBITOR",
+      "GLP1_RA"
+    ],
+    "adoption_status": "CURRENT_USER",
+    "has_glp1_or_sglt2_ever": true,
+    "has_glp1_or_sglt2_discussed": true,
+    "steps_before_newer_therapy": 1,
+    "barriers": [
+      "NONE_REPORTED"
+    ],
+    "primary_barrier": "NONE_REPORTED",
+    "provider_count": 2,
+    "provider_types": [
+      "PCP",
+      "ENDOCRINOLOGIST"
+    ],
+    "initially_dismissed_or_misdiagnosed": false,
+    "is_partial_interview": false,
+    "patient_tone": "confused by conflicting provider instructions and dosing",
+    "notes": "Synthetic profile generated for Trinity Life Sciences case study. Seed=42."
+  },
+  "PT-041": {
+    "patient_id": "PT-041",
+    "age_group": "55-64",
+    "disease_duration": "1-3 years",
+    "therapy_history_sequence": [
+      "METFORMIN"
+    ],
+    "current_therapies": [
+      "METFORMIN"
+    ],
+    "adoption_status": "NEVER_DISCUSSED",
+    "has_glp1_or_sglt2_ever": false,
+    "has_glp1_or_sglt2_discussed": false,
+    "steps_before_newer_therapy": null,
+    "barriers": [
+      "PHYSICIAN_INERTIA"
+    ],
+    "primary_barrier": "PHYSICIAN_INERTIA",
+    "provider_count": 2,
+    "provider_types": [
+      "PCP",
+      "ENDOCRINOLOGIST"
+    ],
+    "initially_dismissed_or_misdiagnosed": true,
+    "is_partial_interview": true,
+    "patient_tone": "anxious about needle injections and long-term side effects",
+    "notes": "Synthetic profile generated for Trinity Life Sciences case study. Seed=42."
+  },
+  "PT-042": {
+    "patient_id": "PT-042",
+    "age_group": "65+",
+    "disease_duration": "4-7 years",
+    "therapy_history_sequence": [
+      "METFORMIN",
+      "DPP4_INHIBITOR"
+    ],
+    "current_therapies": [
+      "DPP4_INHIBITOR"
+    ],
+    "adoption_status": "DISCUSSED_NOT_USED",
+    "has_glp1_or_sglt2_ever": false,
+    "has_glp1_or_sglt2_discussed": true,
+    "steps_before_newer_therapy": null,
+    "barriers": [
+      "FEAR_INJECTIONS"
+    ],
+    "primary_barrier": "FEAR_INJECTIONS",
+    "provider_count": 4,
+    "provider_types": [
+      "URGENT_CARE_ER",
+      "PCP",
+      "ENDOCRINOLOGIST",
+      "CARDIOLOGIST"
+    ],
+    "initially_dismissed_or_misdiagnosed": false,
+    "is_partial_interview": false,
+    "patient_tone": "anxious about needle injections and long-term side effects",
+    "notes": "Synthetic profile generated for Trinity Life Sciences case study. Seed=42."
+  },
+  "PT-043": {
+    "patient_id": "PT-043",
+    "age_group": "18-39",
+    "disease_duration": "4-7 years",
+    "therapy_history_sequence": [
+      "METFORMIN",
+      "DPP4_INHIBITOR"
+    ],
+    "current_therapies": [
+      "DPP4_INHIBITOR"
+    ],
+    "adoption_status": "DISCUSSED_NOT_USED",
+    "has_glp1_or_sglt2_ever": false,
+    "has_glp1_or_sglt2_discussed": true,
+    "steps_before_newer_therapy": null,
+    "barriers": [
+      "PATIENT_PREFERENCE",
+      "FEAR_SIDE_EFFECTS"
+    ],
+    "primary_barrier": "PATIENT_PREFERENCE",
+    "provider_count": 2,
+    "provider_types": [
+      "PCP",
+      "ENDOCRINOLOGIST"
+    ],
+    "initially_dismissed_or_misdiagnosed": false,
+    "is_partial_interview": false,
+    "patient_tone": "proactive researcher seeking latest metabolic therapies",
+    "notes": "Synthetic profile generated for Trinity Life Sciences case study. Seed=42."
+  },
+  "PT-044": {
+    "patient_id": "PT-044",
+    "age_group": "55-64",
+    "disease_duration": "8+ years",
+    "therapy_history_sequence": [
+      "METFORMIN",
+      "DPP4_INHIBITOR",
+      "SGLT2_INHIBITOR",
+      "INSULIN"
+    ],
+    "current_therapies": [
+      "SGLT2_INHIBITOR",
+      "METFORMIN"
+    ],
+    "adoption_status": "CURRENT_USER",
+    "has_glp1_or_sglt2_ever": true,
+    "has_glp1_or_sglt2_discussed": true,
+    "steps_before_newer_therapy": 2,
+    "barriers": [
+      "NONE_REPORTED"
+    ],
+    "primary_barrier": "NONE_REPORTED",
+    "provider_count": 4,
+    "provider_types": [
+      "URGENT_CARE_ER",
+      "PCP",
+      "ENDOCRINOLOGIST",
+      "CARDIOLOGIST"
+    ],
+    "initially_dismissed_or_misdiagnosed": false,
+    "is_partial_interview": false,
+    "patient_tone": "confused by conflicting provider instructions and dosing",
+    "notes": "Synthetic profile generated for Trinity Life Sciences case study. Seed=42."
+  },
+  "PT-045": {
+    "patient_id": "PT-045",
+    "age_group": "65+",
+    "disease_duration": "4-7 years",
+    "therapy_history_sequence": [
+      "METFORMIN",
+      "SGLT2_INHIBITOR"
+    ],
+    "current_therapies": [
+      "SGLT2_INHIBITOR"
+    ],
+    "adoption_status": "CURRENT_USER",
+    "has_glp1_or_sglt2_ever": true,
+    "has_glp1_or_sglt2_discussed": true,
+    "steps_before_newer_therapy": 1,
+    "barriers": [
+      "NONE_REPORTED"
+    ],
+    "primary_barrier": "NONE_REPORTED",
+    "provider_count": 2,
+    "provider_types": [
+      "PCP",
+      "DIABETES_EDUCATOR"
+    ],
+    "initially_dismissed_or_misdiagnosed": false,
+    "is_partial_interview": false,
+    "patient_tone": "confused by conflicting provider instructions and dosing",
+    "notes": "Synthetic profile generated for Trinity Life Sciences case study. Seed=42."
+  },
+  "PT-046": {
+    "patient_id": "PT-046",
+    "age_group": "40-54",
+    "disease_duration": "1-3 years",
+    "therapy_history_sequence": [
+      "METFORMIN",
+      "SGLT2_INHIBITOR"
+    ],
+    "current_therapies": [
+      "SGLT2_INHIBITOR",
+      "METFORMIN"
+    ],
+    "adoption_status": "CURRENT_USER",
+    "has_glp1_or_sglt2_ever": true,
+    "has_glp1_or_sglt2_discussed": true,
+    "steps_before_newer_therapy": 1,
+    "barriers": [
+      "NONE_REPORTED"
+    ],
+    "primary_barrier": "NONE_REPORTED",
+    "provider_count": 2,
+    "provider_types": [
+      "PCP",
+      "ENDOCRINOLOGIST"
+    ],
+    "initially_dismissed_or_misdiagnosed": true,
+    "is_partial_interview": false,
+    "patient_tone": "proactive researcher seeking latest metabolic therapies",
+    "notes": "Synthetic profile generated for Trinity Life Sciences case study. Seed=42."
+  },
+  "PT-047": {
+    "patient_id": "PT-047",
+    "age_group": "40-54",
+    "disease_duration": "4-7 years",
+    "therapy_history_sequence": [
+      "METFORMIN",
+      "SULFONYLUREA"
+    ],
+    "current_therapies": [
+      "SULFONYLUREA",
+      "METFORMIN"
+    ],
+    "adoption_status": "NEVER_DISCUSSED",
+    "has_glp1_or_sglt2_ever": false,
+    "has_glp1_or_sglt2_discussed": false,
+    "steps_before_newer_therapy": null,
+    "barriers": [
+      "PHYSICIAN_INERTIA"
+    ],
+    "primary_barrier": "PHYSICIAN_INERTIA",
+    "provider_count": 4,
+    "provider_types": [
+      "URGENT_CARE_ER",
+      "PCP",
+      "ENDOCRINOLOGIST",
+      "CARDIOLOGIST"
+    ],
+    "initially_dismissed_or_misdiagnosed": false,
+    "is_partial_interview": false,
+    "patient_tone": "resigned and stoic, passive follower of doctor's advice",
+    "notes": "Synthetic profile generated for Trinity Life Sciences case study. Seed=42."
+  },
+  "PT-048": {
+    "patient_id": "PT-048",
+    "age_group": "40-54",
+    "disease_duration": "1-3 years",
+    "therapy_history_sequence": [
+      "METFORMIN",
+      "SGLT2_INHIBITOR"
+    ],
+    "current_therapies": [
+      "SGLT2_INHIBITOR",
+      "METFORMIN"
+    ],
+    "adoption_status": "CURRENT_USER",
+    "has_glp1_or_sglt2_ever": true,
+    "has_glp1_or_sglt2_discussed": true,
+    "steps_before_newer_therapy": 1,
+    "barriers": [
+      "NONE_REPORTED"
+    ],
+    "primary_barrier": "NONE_REPORTED",
+    "provider_count": 2,
+    "provider_types": [
+      "PCP",
+      "DIABETES_EDUCATOR"
+    ],
+    "initially_dismissed_or_misdiagnosed": true,
+    "is_partial_interview": true,
+    "patient_tone": "proactive researcher seeking latest metabolic therapies",
+    "notes": "Synthetic profile generated for Trinity Life Sciences case study. Seed=42."
+  },
+  "PT-049": {
+    "patient_id": "PT-049",
+    "age_group": "40-54",
+    "disease_duration": "1-3 years",
+    "therapy_history_sequence": [
+      "METFORMIN",
+      "SGLT2_INHIBITOR"
+    ],
+    "current_therapies": [
+      "SGLT2_INHIBITOR"
+    ],
+    "adoption_status": "CURRENT_USER",
+    "has_glp1_or_sglt2_ever": true,
+    "has_glp1_or_sglt2_discussed": true,
+    "steps_before_newer_therapy": 1,
+    "barriers": [
+      "NONE_REPORTED"
+    ],
+    "primary_barrier": "NONE_REPORTED",
+    "provider_count": 1,
+    "provider_types": [
+      "PCP"
+    ],
+    "initially_dismissed_or_misdiagnosed": false,
+    "is_partial_interview": false,
+    "patient_tone": "skeptical of pharma, prefers lifestyle and herbal remedies",
+    "notes": "Synthetic profile generated for Trinity Life Sciences case study. Seed=42."
+  },
+  "PT-050": {
+    "patient_id": "PT-050",
+    "age_group": "55-64",
+    "disease_duration": "<1 year",
+    "therapy_history_sequence": [
+      "METFORMIN",
+      "SULFONYLUREA"
+    ],
+    "current_therapies": [
+      "SULFONYLUREA",
+      "METFORMIN"
+    ],
+    "adoption_status": "NEVER_DISCUSSED",
+    "has_glp1_or_sglt2_ever": false,
+    "has_glp1_or_sglt2_discussed": false,
+    "steps_before_newer_therapy": null,
+    "barriers": [
+      "PATIENT_PREFERENCE"
+    ],
+    "primary_barrier": "PATIENT_PREFERENCE",
+    "provider_count": 4,
+    "provider_types": [
+      "URGENT_CARE_ER",
+      "PCP",
+      "ENDOCRINOLOGIST",
+      "CARDIOLOGIST"
+    ],
+    "initially_dismissed_or_misdiagnosed": false,
+    "is_partial_interview": false,
+    "patient_tone": "proactive researcher seeking latest metabolic therapies",
+    "notes": "Synthetic profile generated for Trinity Life Sciences case study. Seed=42."
+  },
+  "PT-051": {
+    "patient_id": "PT-051",
+    "age_group": "40-54",
+    "disease_duration": "8+ years",
+    "therapy_history_sequence": [
+      "METFORMIN",
+      "DPP4_INHIBITOR",
+      "SGLT2_INHIBITOR",
+      "GLP1_RA"
+    ],
+    "current_therapies": [
+      "SGLT2_INHIBITOR",
+      "GLP1_RA",
+      "METFORMIN"
+    ],
+    "adoption_status": "CURRENT_USER",
+    "has_glp1_or_sglt2_ever": true,
+    "has_glp1_or_sglt2_discussed": true,
+    "steps_before_newer_therapy": 2,
+    "barriers": [
+      "NONE_REPORTED"
+    ],
+    "primary_barrier": "NONE_REPORTED",
+    "provider_count": 3,
+    "provider_types": [
+      "PCP",
+      "ENDOCRINOLOGIST",
+      "DIABETES_EDUCATOR"
+    ],
+    "initially_dismissed_or_misdiagnosed": true,
+    "is_partial_interview": false,
+    "patient_tone": "frustrated and weary of insurance hurdles",
+    "notes": "Synthetic profile generated for Trinity Life Sciences case study. Seed=42."
+  },
+  "PT-052": {
+    "patient_id": "PT-052",
+    "age_group": "55-64",
+    "disease_duration": "4-7 years",
+    "therapy_history_sequence": [
+      "METFORMIN",
+      "SULFONYLUREA"
+    ],
+    "current_therapies": [
+      "SULFONYLUREA",
+      "METFORMIN"
+    ],
+    "adoption_status": "DISCUSSED_NOT_USED",
+    "has_glp1_or_sglt2_ever": false,
+    "has_glp1_or_sglt2_discussed": true,
+    "steps_before_newer_therapy": null,
+    "barriers": [
+      "FEAR_INJECTIONS",
+      "FEAR_SIDE_EFFECTS"
+    ],
+    "primary_barrier": "FEAR_INJECTIONS",
+    "provider_count": 1,
+    "provider_types": [
+      "PCP"
+    ],
+    "initially_dismissed_or_misdiagnosed": false,
+    "is_partial_interview": false,
+    "patient_tone": "anxious about needle injections and long-term side effects",
+    "notes": "Synthetic profile generated for Trinity Life Sciences case study. Seed=42."
+  },
+  "PT-053": {
+    "patient_id": "PT-053",
+    "age_group": "40-54",
+    "disease_duration": "1-3 years",
+    "therapy_history_sequence": [
+      "METFORMIN",
+      "SULFONYLUREA"
+    ],
+    "current_therapies": [
+      "SULFONYLUREA"
+    ],
+    "adoption_status": "NEVER_DISCUSSED",
+    "has_glp1_or_sglt2_ever": false,
+    "has_glp1_or_sglt2_discussed": false,
+    "steps_before_newer_therapy": null,
+    "barriers": [
+      "PHYSICIAN_INERTIA"
+    ],
+    "primary_barrier": "PHYSICIAN_INERTIA",
+    "provider_count": 2,
+    "provider_types": [
+      "PCP",
+      "DIABETES_EDUCATOR"
+    ],
+    "initially_dismissed_or_misdiagnosed": true,
+    "is_partial_interview": false,
+    "patient_tone": "frustrated and weary of insurance hurdles",
+    "notes": "Synthetic profile generated for Trinity Life Sciences case study. Seed=42."
+  },
+  "PT-054": {
+    "patient_id": "PT-054",
+    "age_group": "65+",
+    "disease_duration": "4-7 years",
+    "therapy_history_sequence": [
+      "METFORMIN",
+      "DPP4_INHIBITOR",
+      "INSULIN"
+    ],
+    "current_therapies": [
+      "INSULIN"
+    ],
+    "adoption_status": "DISCUSSED_NOT_USED",
+    "has_glp1_or_sglt2_ever": false,
+    "has_glp1_or_sglt2_discussed": true,
+    "steps_before_newer_therapy": null,
+    "barriers": [
+      "FEAR_INJECTIONS",
+      "FEAR_SIDE_EFFECTS"
+    ],
+    "primary_barrier": "FEAR_INJECTIONS",
+    "provider_count": 1,
+    "provider_types": [
+      "PCP"
+    ],
+    "initially_dismissed_or_misdiagnosed": false,
+    "is_partial_interview": false,
+    "patient_tone": "skeptical of pharma, prefers lifestyle and herbal remedies",
+    "notes": "Synthetic profile generated for Trinity Life Sciences case study. Seed=42."
+  },
+  "PT-055": {
+    "patient_id": "PT-055",
+    "age_group": "55-64",
+    "disease_duration": "1-3 years",
+    "therapy_history_sequence": [
+      "METFORMIN",
+      "SGLT2_INHIBITOR"
+    ],
+    "current_therapies": [
+      "SGLT2_INHIBITOR",
+      "METFORMIN"
+    ],
+    "adoption_status": "CURRENT_USER",
+    "has_glp1_or_sglt2_ever": true,
+    "has_glp1_or_sglt2_discussed": true,
+    "steps_before_newer_therapy": 1,
+    "barriers": [
+      "FEAR_INJECTIONS"
+    ],
+    "primary_barrier": "FEAR_INJECTIONS",
+    "provider_count": 4,
+    "provider_types": [
+      "URGENT_CARE_ER",
+      "PCP",
+      "ENDOCRINOLOGIST",
+      "CARDIOLOGIST"
+    ],
+    "initially_dismissed_or_misdiagnosed": true,
+    "is_partial_interview": false,
+    "patient_tone": "resigned and stoic, passive follower of doctor's advice",
+    "notes": "Synthetic profile generated for Trinity Life Sciences case study. Seed=42."
+  },
+  "PT-056": {
+    "patient_id": "PT-056",
+    "age_group": "55-64",
+    "disease_duration": "8+ years",
+    "therapy_history_sequence": [
+      "METFORMIN",
+      "SULFONYLUREA",
+      "SGLT2_INHIBITOR",
+      "GLP1_RA",
+      "INSULIN"
+    ],
+    "current_therapies": [
+      "SGLT2_INHIBITOR",
+      "GLP1_RA",
+      "METFORMIN"
+    ],
+    "adoption_status": "CURRENT_USER",
+    "has_glp1_or_sglt2_ever": true,
+    "has_glp1_or_sglt2_discussed": true,
+    "steps_before_newer_therapy": 2,
+    "barriers": [
+      "NONE_REPORTED"
+    ],
+    "primary_barrier": "NONE_REPORTED",
+    "provider_count": 4,
+    "provider_types": [
+      "URGENT_CARE_ER",
+      "PCP",
+      "ENDOCRINOLOGIST",
+      "CARDIOLOGIST"
+    ],
+    "initially_dismissed_or_misdiagnosed": false,
+    "is_partial_interview": false,
+    "patient_tone": "confused by conflicting provider instructions and dosing",
+    "notes": "Synthetic profile generated for Trinity Life Sciences case study. Seed=42."
+  },
+  "PT-057": {
+    "patient_id": "PT-057",
+    "age_group": "55-64",
+    "disease_duration": "1-3 years",
+    "therapy_history_sequence": [
+      "METFORMIN"
+    ],
+    "current_therapies": [
+      "METFORMIN"
+    ],
+    "adoption_status": "NEVER_DISCUSSED",
+    "has_glp1_or_sglt2_ever": false,
+    "has_glp1_or_sglt2_discussed": false,
+    "steps_before_newer_therapy": null,
+    "barriers": [
+      "PHYSICIAN_INERTIA"
+    ],
+    "primary_barrier": "PHYSICIAN_INERTIA",
+    "provider_count": 3,
+    "provider_types": [
+      "PCP",
+      "ENDOCRINOLOGIST",
+      "DIABETES_EDUCATOR"
+    ],
+    "initially_dismissed_or_misdiagnosed": false,
+    "is_partial_interview": true,
+    "patient_tone": "anxious about needle injections and long-term side effects",
+    "notes": "Synthetic profile generated for Trinity Life Sciences case study. Seed=42."
+  },
+  "PT-058": {
+    "patient_id": "PT-058",
+    "age_group": "55-64",
+    "disease_duration": "4-7 years",
+    "therapy_history_sequence": [
+      "METFORMIN",
+      "DPP4_INHIBITOR",
+      "SGLT2_INHIBITOR",
+      "GLP1_RA"
+    ],
+    "current_therapies": [
+      "METFORMIN",
+      "DPP4_INHIBITOR"
+    ],
+    "adoption_status": "FORMER_USER",
+    "has_glp1_or_sglt2_ever": true,
+    "has_glp1_or_sglt2_discussed": true,
+    "steps_before_newer_therapy": 2,
+    "barriers": [
+      "FEAR_SIDE_EFFECTS"
+    ],
+    "primary_barrier": "FEAR_SIDE_EFFECTS",
+    "provider_count": 3,
+    "provider_types": [
+      "PCP",
+      "ENDOCRINOLOGIST",
+      "DIABETES_EDUCATOR"
+    ],
+    "initially_dismissed_or_misdiagnosed": false,
+    "is_partial_interview": false,
+    "patient_tone": "resigned and stoic, passive follower of doctor's advice",
+    "notes": "Synthetic profile generated for Trinity Life Sciences case study. Seed=42."
+  },
+  "PT-059": {
+    "patient_id": "PT-059",
+    "age_group": "40-54",
+    "disease_duration": "4-7 years",
+    "therapy_history_sequence": [
+      "METFORMIN",
+      "SGLT2_INHIBITOR",
+      "GLP1_RA"
+    ],
+    "current_therapies": [
+      "SGLT2_INHIBITOR",
+      "GLP1_RA",
+      "METFORMIN"
+    ],
+    "adoption_status": "CURRENT_USER",
+    "has_glp1_or_sglt2_ever": true,
+    "has_glp1_or_sglt2_discussed": true,
+    "steps_before_newer_therapy": 1,
+    "barriers": [
+      "FEAR_INJECTIONS"
+    ],
+    "primary_barrier": "FEAR_INJECTIONS",
+    "provider_count": 4,
+    "provider_types": [
+      "URGENT_CARE_ER",
+      "PCP",
+      "ENDOCRINOLOGIST",
+      "CARDIOLOGIST"
+    ],
+    "initially_dismissed_or_misdiagnosed": false,
+    "is_partial_interview": false,
+    "patient_tone": "anxious about needle injections and long-term side effects",
+    "notes": "Synthetic profile generated for Trinity Life Sciences case study. Seed=42."
+  },
+  "PT-060": {
+    "patient_id": "PT-060",
+    "age_group": "55-64",
+    "disease_duration": "4-7 years",
+    "therapy_history_sequence": [
+      "METFORMIN",
+      "DPP4_INHIBITOR",
+      "GLP1_RA"
+    ],
+    "current_therapies": [
+      "GLP1_RA",
+      "METFORMIN"
+    ],
+    "adoption_status": "CURRENT_USER",
+    "has_glp1_or_sglt2_ever": true,
+    "has_glp1_or_sglt2_discussed": true,
+    "steps_before_newer_therapy": 2,
+    "barriers": [
+      "NONE_REPORTED"
+    ],
+    "primary_barrier": "NONE_REPORTED",
+    "provider_count": 3,
+    "provider_types": [
+      "PCP",
+      "ENDOCRINOLOGIST",
+      "DIABETES_EDUCATOR"
+    ],
+    "initially_dismissed_or_misdiagnosed": false,
+    "is_partial_interview": false,
+    "patient_tone": "resigned and stoic, passive follower of doctor's advice",
+    "notes": "Synthetic profile generated for Trinity Life Sciences case study. Seed=42."
+  }
+}
